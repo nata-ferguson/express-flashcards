@@ -1,0 +1,57 @@
+{
+    "data": {
+        "title": "JavaScript Flashcards",
+        "cards": [
+            {
+                "question": "What language are Express apps written in?",
+                "hint": "It starts with a \"J\"",
+                "answer": "JavaScript"
+            },
+            {
+                "question": "What is one way a website can store data in a user's browser?",
+                "hint": "They are delicious with milk",
+                "answer": "Cookies"
+            },
+            {
+                "question": "What is a common way to shorten the response object's name inside middleware?",
+                "hint": "It has the same abbreviation as \"resolution\"",
+                "answer": "res"
+            },
+            {
+                "question": "How many different values can booleans have?",
+                "hint": "Think: binary",
+                "answer": "2"
+            },
+            {
+                "question": "Which HTML element can contain JavaScript?",
+                "hint": "It starts with an \"s\"",
+                "answer": "<script>"
+            },
+            {
+                "question": "What is routing and how routing works in Express.js?",
+                "hint": "How does an application respond to a client request?",
+                "answer": "Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on)."
+            },
+            {
+                "question": "What is an application-level middleware?",
+                "hint": "Does it apply on all routes or a particular route?",
+                "answer": "It's kind of middleware method that is bound to the app Object using app.use() method. It applies on all routes."
+            },
+            {
+                "question": "What is Express.js?",
+                "hint": "",
+                "answer": "Express.js is a free open-source, light-weight node js based web application framework"
+            },
+            {
+                "question": "How to install Express.js?",
+                "hint": "",
+                "answer": "$ mkdir myapp then $ cd myapp then $ npm init then entry point: (index.js) then $ npm install express --save"
+            },
+            {
+                "question": "What function arguments are available to Express.js route handlers?",
+                "hint": "The first two arguments start with 'r'",
+                "answer": "req, res, next"
+            }
+        ]
+    }
+}
